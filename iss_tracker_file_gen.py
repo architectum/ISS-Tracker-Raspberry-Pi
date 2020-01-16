@@ -6,7 +6,7 @@ from xml.etree import ElementTree as etree
 #VISIT http://spotthestation.nasa.gov/sightings/
 #Select the country and the city and click on Next
 #Click on RSS and paste the link here:
-iss_tracker_link ="http://spotthestation.nasa.gov/sightings/xml_files/Angola_None_Luanda.xml" #example link
+iss_tracker_link ="https://spotthestation.nasa.gov/sightings/xml_files/Ukraine_None_Kiev.xml"
 
 read_iss_link = urllib2.urlopen(iss_tracker_link).read()
 
